@@ -1,0 +1,65 @@
+body {
+    color: rgb(61, 61, 61);
+    background-color: black;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.submit {
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+  .form {
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+  }
+  .input:focus {
+    outline: none;
+  }
+
+  .tasks {
+    position: relative;
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+    border-color: rgb(210, 23, 23);
+  }
+/* only target button that are inside class named 'task'  */ 
+  .task button:hover {
+    background-color: rgb(210, 23, 23);
+    opacity: 0.8;
+    }
+
+  
