@@ -56,7 +56,7 @@ body {
     background-color: #f7f7f7;
     border-color: rgb(210, 23, 23);
   }
-/* only target button that are inside class named 'task'  */ 
+/* only target button  inside class named 'task'  */ 
   .task button:hover {
     background-color: rgb(210, 23, 23);
     opacity: 0.8;
